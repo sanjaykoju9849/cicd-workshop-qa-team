@@ -1,14 +1,9 @@
 name: Frontend Deployment
+
 on:
   push:
     branches:
         - team5-sanjay
-
-
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
-
 
 jobs:
   test:
